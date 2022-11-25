@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+#hero-section {
+    color: #FFFFFF;
+    background-image: url("https://images.unsplash.com/photo-1585914285280-72bae40d4b3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 18px;
+}
+
+.hero-title {
+    background: #1D3557;
+    border-radius: 10px;
+    font-size: inherit;
+    padding: 5px 8px;
+    margin: 0;
+}
+
+.hero-desc {
+    background: #457B9D;
+    border-radius: 10px;
+    font-size: inherit;
+    padding: 5px 29px;
+    width: 350px;
+}
+
+#activity {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    padding: 39px 34px;
+    color: #1D3557;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.activity-desc {
+    line-height: 18px;
+}
+
+.activity-img {
+    border-radius: 10px;
+}
+
+.activity-box-title {
+    margin: 10px 0;
+}
+
+#guide {
+    background: #A8DADC;
+    display: flex;
+    width: 400px;
+    margin: 50px auto;
+    padding: 23px 13px;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    color: #1D3557;
+    text-align: center;
+}
+
+.guide-img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.guide-title {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+
+.guide-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+}

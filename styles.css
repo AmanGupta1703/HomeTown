@@ -5,8 +5,15 @@ LIGHT: #F1FAEE
 AQUA: #A8DADC
 LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
-
 */
+
+:root {
+    --red: #E63946;
+    --light: #F1FAEE;
+    --aqua: #A8DADC;
+    --light-blue: #457B9D;
+    --dark-blue: #1D3557;
+}
 
 body {
     margin: 0;
